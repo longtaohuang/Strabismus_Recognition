@@ -2,7 +2,7 @@
 This repository utilizes the Pb models to recognize strabismus.
 ## Content
 * Dataset: The test images tend to be recognized.
-* frozen_inception_v3.pb: The Pb model that contains the variables we after trained the networks.
+* frozen_inception_v3.pb: The Pb model that contains the variables after we trained the networks.
 * funcRead.py: The function that reads the TFRecord.
 * inception_preprocessing.py: The function that preprocesses the images to do data augmentation.
 * mydata_validation_00000-of-00001.tfrecord: The TFRecord files.
