@@ -9,7 +9,7 @@ This repository utilizes the Pb models to recognize strabismus.
 * trans_tf_to_img.py: The function that translates the TFRecord to images.
 * utilizePb.py: The main function that utilizes the Pb models to predict the results whether it is strabismus.
 ## Usage
-To `run` utilizePb.py after you `change the path` of modle_file and pathOri(`The Pb models and the test iamges`), <br>
+To `run` utilizePb.py after you `change the path` of modle_file and pathOri(`The Pb models and the test images`), <br>
 then you will get the highest predict probability of strabismus and the result by the model(1 for strabismus and 0 for normal).
 ## Requirement
 Platform: Windows, Ubuntu. <br>
